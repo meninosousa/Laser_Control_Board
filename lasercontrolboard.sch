@@ -1,0 +1,311 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:myLib
+LIBS:lasercontrolboard-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "3 jul 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R R3
+U 1 1 53B415B9
+P 5025 4525
+F 0 "R3" V 5105 4525 40  0000 C CNN
+F 1 "1k2" V 5032 4526 40  0000 C CNN
+F 2 "~" V 4955 4525 30  0000 C CNN
+F 3 "~" H 5025 4525 30  0000 C CNN
+	1    5025 4525
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2
+U 1 1 53B416AE
+P 5025 4075
+F 0 "R2" V 5105 4075 40  0000 C CNN
+F 1 "1k2" V 5032 4076 40  0000 C CNN
+F 2 "~" V 4955 4075 30  0000 C CNN
+F 3 "~" H 5025 4075 30  0000 C CNN
+	1    5025 4075
+	0    1    1    0   
+$EndComp
+$Comp
+L R R1
+U 1 1 53B416BE
+P 5025 3475
+F 0 "R1" V 5105 3475 40  0000 C CNN
+F 1 "1k2" V 5032 3476 40  0000 C CNN
+F 2 "~" V 4955 3475 30  0000 C CNN
+F 3 "~" H 5025 3475 30  0000 C CNN
+	1    5025 3475
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D1
+U 1 1 53B41748
+P 5550 3475
+F 0 "D1" H 5550 3575 50  0000 C CNN
+F 1 "LED" H 5550 3375 50  0000 C CNN
+F 2 "~" H 5550 3475 60  0000 C CNN
+F 3 "~" H 5550 3475 60  0000 C CNN
+	1    5550 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D2
+U 1 1 53B41757
+P 5550 4075
+F 0 "D2" H 5550 4175 50  0000 C CNN
+F 1 "LED" H 5550 3975 50  0000 C CNN
+F 2 "~" H 5550 4075 60  0000 C CNN
+F 3 "~" H 5550 4075 60  0000 C CNN
+	1    5550 4075
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D3
+U 1 1 53B41766
+P 5550 4525
+F 0 "D3" H 5550 4625 50  0000 C CNN
+F 1 "LED" H 5550 4425 50  0000 C CNN
+F 2 "~" H 5550 4525 60  0000 C CNN
+F 3 "~" H 5550 4525 60  0000 C CNN
+	1    5550 4525
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 53B509E6
+P 3700 5700
+F 0 "#PWR01" H 3700 5700 30  0001 C CNN
+F 1 "GND" H 3700 5630 30  0001 C CNN
+F 2 "" H 3700 5700 60  0000 C CNN
+F 3 "" H 3700 5700 60  0000 C CNN
+	1    3700 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3X2 P4
+U 1 1 53B50A6A
+P 6875 4075
+F 0 "P4" H 6875 4325 50  0000 C CNN
+F 1 "CONN_3X2" V 6875 4125 40  0000 C CNN
+F 2 "" H 6875 4075 60  0000 C CNN
+F 3 "" H 6875 4075 60  0000 C CNN
+	1    6875 4075
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 53B50A79
+P 7825 4325
+F 0 "#PWR02" H 7825 4325 30  0001 C CNN
+F 1 "GND" H 7825 4255 30  0001 C CNN
+F 2 "" H 7825 4325 60  0000 C CNN
+F 3 "" H 7825 4325 60  0000 C CNN
+	1    7825 4325
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 53B50CC0
+P 3500 4325
+F 0 "#PWR03" H 3500 4325 30  0001 C CNN
+F 1 "GND" H 3500 4255 30  0001 C CNN
+F 2 "" H 3500 4325 60  0000 C CNN
+F 3 "" H 3500 4325 60  0000 C CNN
+	1    3500 4325
+	1    0    0    -1  
+$EndComp
+Text Label 3300 3400 0    60   ~ 0
+Laser Energy Monitor
+Text Label 3575 3625 0    60   ~ 0
+Indicator 7 (Green)
+Text Label 3575 3725 0    60   ~ 0
+Interlock
+Text Label 3575 3825 0    60   ~ 0
+Indicator 7 (Red)
+Text Label 3575 3925 0    60   ~ 0
+Ext./Int. Trig. Switch
+Text Label 3575 4025 0    60   ~ 0
+Indicator 6
+Text Label 3375 4225 0    60   ~ 0
+Signal GND
+$Comp
+L GND #PWR04
+U 1 1 53B553D2
+P 6575 3100
+F 0 "#PWR04" H 6575 3100 30  0001 C CNN
+F 1 "GND" H 6575 3030 30  0001 C CNN
+F 2 "" H 6575 3100 60  0000 C CNN
+F 3 "" H 6575 3100 60  0000 C CNN
+	1    6575 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG05
+U 1 1 53B553E1
+P 6575 2850
+F 0 "#FLG05" H 6575 2945 30  0001 C CNN
+F 1 "PWR_FLAG" H 6575 3030 30  0000 C CNN
+F 2 "" H 6575 2850 60  0000 C CNN
+F 3 "" H 6575 2850 60  0000 C CNN
+	1    6575 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2X2 P2
+U 1 1 53B55EE9
+P 3750 2650
+F 0 "P2" H 3750 2800 50  0000 C CNN
+F 1 "CONN_2X2" H 3760 2520 40  0000 C CNN
+F 2 "" H 3750 2650 60  0000 C CNN
+F 3 "" H 3750 2650 60  0000 C CNN
+	1    3750 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_8 P1
+U 1 1 53B42301
+P 2950 3875
+F 0 "P1" V 2900 3875 60  0000 C CNN
+F 1 "CONN_8" V 3000 3875 60  0000 C CNN
+F 2 "" H 2950 3875 60  0000 C CNN
+F 3 "" H 2950 3875 60  0000 C CNN
+	1    2950 3875
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_2X2 P3
+U 1 1 53B55EDA
+P 3775 4725
+F 0 "P3" H 3775 4875 50  0000 C CNN
+F 1 "CONN_2X2" H 3785 4595 40  0000 C CNN
+F 2 "" H 3775 4725 60  0000 C CNN
+F 3 "" H 3775 4725 60  0000 C CNN
+	1    3775 4725
+	1    0    0    -1  
+$EndComp
+Connection ~ 4175 4775
+Connection ~ 3375 4775
+Wire Wire Line
+	4150 2600 4150 3000
+Connection ~ 4150 3000
+Connection ~ 3350 3000
+Wire Wire Line
+	4150 3000 3350 3000
+Connection ~ 3350 2700
+Connection ~ 4150 2700
+Wire Wire Line
+	6575 2850 6575 3100
+Wire Wire Line
+	6475 4275 6475 4125
+Wire Wire Line
+	6225 4275 6475 4275
+Wire Wire Line
+	6225 3925 6225 4275
+Wire Wire Line
+	3300 3925 6225 3925
+Wire Wire Line
+	6475 3725 6475 3925
+Wire Wire Line
+	3300 3725 6475 3725
+Wire Wire Line
+	4175 5475 3700 5475
+Wire Wire Line
+	4175 4675 4175 5475
+Wire Wire Line
+	3700 5475 3700 5700
+Wire Wire Line
+	3375 5575 3700 5575
+Wire Wire Line
+	3375 4675 3375 5575
+Wire Wire Line
+	3500 4225 3500 4325
+Wire Wire Line
+	3300 4225 3500 4225
+Wire Wire Line
+	3300 4125 3300 4225
+Wire Wire Line
+	4275 4525 4775 4525
+Wire Wire Line
+	4275 4025 4275 4525
+Wire Wire Line
+	3300 4025 4275 4025
+Wire Wire Line
+	4425 4075 4775 4075
+Wire Wire Line
+	4425 3825 4425 4075
+Wire Wire Line
+	3300 3825 4425 3825
+Connection ~ 7275 4025
+Connection ~ 7275 4125
+Wire Wire Line
+	7275 3925 7275 4150
+Wire Wire Line
+	7275 4150 7825 4150
+Wire Wire Line
+	7825 4150 7825 4325
+Wire Wire Line
+	5275 4525 5350 4525
+Wire Wire Line
+	5275 4075 5350 4075
+Wire Wire Line
+	6475 4075 6475 4025
+Wire Wire Line
+	5750 4075 6475 4075
+Connection ~ 5750 4075
+Wire Wire Line
+	5750 3475 5750 4525
+Wire Wire Line
+	5275 3475 5350 3475
+Wire Wire Line
+	4775 3625 4775 3475
+Wire Wire Line
+	3300 3625 4775 3625
+Wire Wire Line
+	3350 2600 3350 3175
+Wire Wire Line
+	3350 3175 3300 3175
+Wire Wire Line
+	3300 3175 3300 3525
+Connection ~ 3700 5575
+$EndSCHEMATC
